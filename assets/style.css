@@ -1,0 +1,28 @@
+:root {
+    --headingcolor: #5F678C;
+    --headingfont: helvetica;
+}
+
+header {
+    display:flex;
+    justify-content: inline;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 95%;
+}
+
+header nav ul li {
+    padding: 3px;
+    list-style: none;
+    justify-content: space-between;
+    font-style: underline;
+}
+h1 {
+
+    color: var(--headingcolor);
+    font-family: var(--headingfont)
+}
