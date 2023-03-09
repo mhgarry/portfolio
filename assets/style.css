@@ -1,28 +1,124 @@
 :root {
-    --headingcolor: #5F678C;
-    --headingfont: helvetica;
+    --headingcolor: rgb(175, 170, 78);s
+    --headingfont:"Carrois Gothic SC";
+     
+    
+    
 }
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
+    font-family: "league gothic";
+    font-size: 1em;
 
+}
 header {
-    display:flex;
-    justify-content: inline;
-}
-
-header nav ul {
     display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 95%;
+    align-items:center;
+    background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
+    justify-content: space-between;
+    padding: 5px 5px 5px 5px;
+    font-size: 1em;
+    font-family:"Carrois Gothic SC"
+    
+
 }
 
 header nav ul li {
-    padding: 3px;
-    list-style: none;
-    justify-content: space-between;
-    font-style: underline;
+    padding: 4px 4px 4px 4px;
+    background: whitesmoke;
+    color:rgb(175, 170, 78);
+    font-size: 1em;
+    
+    
 }
-h1 {
+.name {
+    color:rgb(175, 170, 78);
+    background: white;
+    width: 45%;
+   
+}
 
+
+
+
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
     color: var(--headingcolor);
-    font-family: var(--headingfont)
+    background: white;
+    background-size: 99em;
+    font-size: 3em;
+
 }
+
+h1 {
+    background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
+    color: white;
+    font-family: var(--headingfont);
+    font-size: 2em;
+    padding: 3%;
+}
+
+
+
+section {
+
+   display: flex;
+   flex-direction: row; 
+   padding-left: 8px;
+   justify-content: space-around;
+   padding: 1%;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    justify-content:space-between;
+    padding: 5%;
+    color: black;
+    background: white;
+    font-family: "Carrois Gothic SC"
+    
+}
+
+
+img {
+    display:flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: underline;
+    justify-content: space-evenly;
+    padding: 4px;
+}
+
+
+
