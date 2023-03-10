@@ -1,4 +1,13 @@
 *   {
-        background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, =78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
-        font-family: "leagothicgue ";
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: start;
+        align-content: space-around;
+        row-gap: 5em;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        background: linear-gradient( to right, rgb(10, 143, 143), rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86), rgb(10, 143, 143), rgb(175, 170, 78),  rgb(89, 86, 86)) 222em;
+        font-family: "Carrois Gothic SC"
     }
