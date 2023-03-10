@@ -1,13 +1,145 @@
-*   {
+body  {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: start;
+        justify-content: space-between;
+        align-items:flex-start;
         align-content: space-around;
-        row-gap: 5em;
+        row-gap: 0;
+        font-family: "Carrois Gothic SC";
         margin: 0;
         border: 0;
         padding: 0;
         background: linear-gradient( to right, rgb(10, 143, 143), rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86), rgb(10, 143, 143), rgb(175, 170, 78),  rgb(89, 86, 86)) 222em;
-        font-family: "Carrois Gothic SC"
+}
+
+
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    flex-flow: row ;
+    text-align: inline;
+    color:rgb(175, 170, 78);
+    font-size: 3em;
+}
+
+nav ul {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content:end;
+    list-style: none;
+    display: inline-flex;
+    color:rgb(175, 170, 78);
+    padding-right: 5px;
+    
+}
+
+nav ul li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color:rgb(175, 170, 78);
+    text-decoration: none;
+    padding-inline: 2px;
+    font-size: 1.2em;
     }
+
+
+
+section {
+    display:flex;
+    flex-flow: row wrap;
+    
+    align-items: space-between;
+    margin: 0;
+}
+
+.subtitle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+    background: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+    font-size: 3em;
+}
+
+figure{
+    display: flex;
+    flex-direction: rowds;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
+    }
+
+figure img {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid black .5em;
+}
+
+h2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: white;
+    font-size: 2.5em;
+}
+
+p {
+    background:rgba(255,255,255, 0.3);
+    font-size: 1.5em;
+    color: black
+    }
+
+.wayside {
+    display: flex;
+    flex-direction: row wrap;
+    font-size: 2em;
+    justify-content: center;
+    align-content: center;
+   
+}
+h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px 50px;
+    margin-bottom: 50px;
+
+}
+
+img {
+    border: black solid 3em;
+}
+
+a:hover {
+    cursor:grabbing;
+    
+}
+
+.feet {
+    background: white;
+    width: 100%;
+}
