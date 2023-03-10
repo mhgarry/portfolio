@@ -21,7 +21,10 @@ This app has multiple pictures and projects. This app deploys heavy CSS
 ## Sources
 
 all pictures: https://www.istockphoto.com/
+
 gradient: https://stackoverflow.com/questions/57522446/background-single-diagonal-stripe
+
 google fonts for all fonts
-https://loremipsum.io/generator/?n=1&t=p: for generated <p>'s
+
+https://loremipsum.io/generator/?n=1&t=p: for generated paragraphs
 
