@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <!-- my title page for this project "My Portfolio"-->
+    <title>My Portfolio</title>
+    <!-- my linked stylesheet to use CSS with -->
     <link rel="stylesheet" href="assets/style.css">
+    <!-- fonts I downloaded and linked to this page using google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
@@ -14,31 +17,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
 </head>
 
+<!-- the body section, the main portion of the website and where the bulk of the content goes-->
 <body>
+    <!-- my header is going to be my first and last name as well as a nav bar that links to internally inside the page -->
     <header>
+        <!-- h1 with my name for strong introduction-->
         <h1 class="name">Matthew Garry</h1>
+        <!-- nav bar in UL with button links to different sections of the page using ID to navigate easily -->
             <nav>
                 <ul>
                     <a button onclick href="#intro"><li>intro</li>
-                    <a button onclick href="#art"><li>Collections</li>
+                    <a button onclick href="#art"><li>Projects</li>
                     <a button onclick href="#contact"><li>Contact</li>
-                    <a href="https://github.com/mhgarry"><li>Resume</li></a>
+                    <a href="https://github.com/mhgarry"><li>Resume</li></a> <!-- links to my github -->
                 </ul>
-
             </nav>
      </header>
-
+    <!-- time to start my main section where the bulk of my content will be. My main section will include a logo on the top
+    bar of the page, an "about" section introducing myself (it's filled with stock text as of now), and multiple project links 
+    highlighting my skills and knowledge in a wide variety of different aspects of web design -->
     <main>
+        <!-- logo, using snap to use multiple colors in one word -->
         <h1 class="subtitle">
-            mHg DESIGNS
+            m<snap>H</snap>g DESIGNS
         </h1>
         
-        <h1 id="intro">
-             Nice to Meet You:
-        </h1>
+        <!-- using the id "intro" to link to in my nav bar-->
+        <h2 id="intro">
+             My Story:
+        </h2>
             <section>
-                <hr>
-                    <p>
+                    <p> <!-- a couple paragraphs introudcing myself. Stock text from "Lorem Ipsum Generator" 
+                          https://loremipsum.io/generator/?n=1&t=p -->
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Vel pharetra vel turpis nunc eget lorem. Fusce ut placerat
                         orci nulla pellentesque. Tellus integer feugiat scelerisque varius. Dictum sit amet justo donec enim.
@@ -50,9 +60,7 @@
                         Etiam erat velit scelerisque in dictum non consectetur a.
 
                     </p>
-                </hr>
             
-                <hr>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                         aliqua. Lectus nulla at volutpat diam ut venenatis. Aliquam ut porttitor leo a. Sapien nec sagittis aliquam malesuada 
@@ -61,59 +69,62 @@
                         ac. Malesuada fames ac turpis egestas integer eget aliquet nibh. Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. 
                         Laoreet id donec ultrices tincidunt arcu non. Lorem dolor sed viverra ipsum.
                     </p>
-                </hr>
             </section>
-        
-            <h1 id="art">
-                Collections:
-            </h1>
+        <!-- This part of the page will showcase my development work. I will post 5 projects (stock phots from https://www.istockphoto.com/ atm)
+            to my portfolio to show off a wide range of skills. Using the id "art" to link to in my nav bar-->
+        <h2 id="art">
+            Projects: <!--Again header tag informing the user that I will be showcasing my projects-->
+        </h2>
+            <section class="wayside"> <!-- this section holds my first and biggest project. Gave it a class name 
+            in case i need to edit it -->
+                <h2>
+                    Wayside
+                </h2>
+            </section>
+            <!-- insert big image into HTML and first project into HTML document. Got image from www.istockphoto.com royalty free-->>
+            <section class="arrow">
 
-                <section class="projectx">
+            <a href="https://www.istockphoto.com/vector/urban-party-bw-gm97978570-12320792"><img src="assets/arrow.jpg"></a>
+                    
+            </section>
+            <!--giving this project it's own section to really higlight it-->
+        
+            <section id="cards" class="Lucky"> <!-- giving all of my smaller pictures the same ID so I can work on them
+            together as a selector and seperate classes so I can work on them individually-->
+                <h3>
+                    Lucky <!--giving smaller projects thier own section but with h3 headings to highlight signifigance 
+                    stock photo fromhttps://www.istockphoto.com/ -->
+                </h3>
+                    <a href="https://www.istockphoto.com/vector/half-orc-barbarian-with-natural-twenty-dice-roll-illustration-gm1408700712-459482698"><img src="assets/dice.jpg"></a> 
+            </section>
             
-                    <h2>
-                        Sideways Summoning
-                    </h2>
-                        
-                            <a href="https://www.istockphoto.com/vector/urban-party-bw-gm97978570-12320792"><img src="assets/arrow.jpg">
-
-                </section>
-                
-                <br>
-
-                <section>
-                    <br>
-                    <br>
-                    <br>
-                </section>
-                <br>
-                
-                <br>
-                <section class="project1"> 
-                    
-
-                        <a href="https://www.istockphoto.com/vector/half-orc-barbarian-with-natural-twenty-dice-roll-illustration-gm1408700712-459482698"><img src="assets/dice.jpg">
-                        <a href="https://www.istockphoto.com/vector/skull-sacred-geometry-design-gm813068566-131619975?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_illustration_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fskulls-moth-hands-flowers-ghost-7827155%2F&utm_term=skulls+moth"><img src="assets/skull.jpg">
-                        <a href="https://www.istockphoto.com/vector/skull-art-gm542724934-97228227"><img src="assets/pentacle.jpg">
-                        <a href="https://www.istockphoto.com/vector/skull-candle-gm165667551-10307214"><img src="assets/candle.jpg">
-                    
-                    
-                </section>
-        
-            <section class="project1">
-                
-                <hr> <br>
-               
-
-
+            <section id="cards" class="moth">
+                <h3>
+                    Moonlight
+                </h3>
+                    <a href="https://www.istockphoto.com/vector/skull-sacred-geometry-design-gm813068566-131619975?utm_source=pixabay&utm_medium=affiliate&utm_campaign=ADP_illustration_sponsored&utm_content=https%3A%2F%2Fpixabay.com%2Fillustrations%2Fskulls-moth-hands-flowers-ghost-7827155%2F&utm_term=skulls+moth"><img src="assets/skull.jpg"></a>
             </section>
 
-        </main>
+            <section id="cards" class="pentacle">
+                <h3>
+                    Old Bones
+                </h3>
+                    <a href="https://www.istockphoto.com/vector/skull-art-gm542724934-97228227"><img src="assets/pentacle.jpg"></a>
+            </section>
+            
+            <section id="cards" class="candle">
+                <h3>
+                    Soft Glow
+                </h3>
+                <a href="https://www.istockphoto.com/vector/skull-candle-gm165667551-10307214"><img src="assets/candle.jpg"></a>
+            </section>
+                        
+        </main> <!-- that's the bulk of my content in main-->
 
-        <footer>
-            <h1 id="contact" class="contact">Contact:</h1>
-        
-                <nav class="footer">
-           
+        <footer class="feet"> <!-- footer time, made a class to mess with it all at once-->
+            <h1 id="contact">Contact:</h1> 
+            <!-- gave the ID contact to link to nav on top-->
+                <nav class="hitmeup"> <!-- nav bar with contact info-->
                     <ul>
                         <li>phone number</li>
                         <li>email</li>
@@ -122,5 +133,5 @@
                     </ul>
                 </nav>
          </footer>
-</body>
+</body> <!-- skeleton done -->
 </html>
