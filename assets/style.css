@@ -1,10 +1,3 @@
-:root {
-    --headingcolor: rgb(175, 170, 78);s
-    --headingfont:"Carrois Gothic SC";
-     
-    
-    
-}
 * {
     margin: 0;
     padding: 0px;
@@ -12,68 +5,60 @@
     background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
     font-family: "league gothic";
     font-size: 1em;
+    }
 
-}
-header {
-    display: flex;
-    align-items:center;
-    background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
-    justify-content: space-between;
-    padding: 5px 5px 5px 5px;
-    font-size: 1em;
-    font-family:"Carrois Gothic SC"
-    
+    header  {
+        display: flex;
+        align-items: flex-start;
+        background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
+        justify-content: space-between;
+        font-family:"Carrois Gothic SC"
+        }
 
-}
+    .name {
+        color: white;
+        background: black;
+        opacity: 70%;
+        width: 25%;
+        margin-bottom: .4%;
+        font-size: 3em;
+        }
 
-header nav ul li {
-    padding: 4px 4px 4px 4px;
-    background: whitesmoke;
-    color:rgb(175, 170, 78);
-    font-size: 1em;
-    
-    
-}
-.name {
-    color:rgb(175, 170, 78);
-    background: white;
-    width: 45%;
-   
-}
-
-
+    header nav ul li {
+        display: flex;
+        justify-content:space-evenly;
+        padding: 5px 5px 5px 5px;
+        background: black;
+        color:white;
+        font-size: 1.7em;
+        }
 
 
 
 .subtitle {
     display: flex;
-    justify-content: center;
-    padding: 4%;
-    color: var(--headingcolor);
-    background: white;
-    background-size: 99em;
-    font-size: 3em;
-
-}
+    justify-content: right;
+    padding: 1%;
+    color: white;
+    background: black;
+    opacity: 80%;
+    font-size: 4em;
+    width: 100%;
+    }
 
 h1 {
-    background: linear-gradient(to right, rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78), rgb(89, 86, 86),rgb(10, 143, 143),rgb(175, 170, 78),  rgb(89, 86, 86));
     color: white;
     font-family: var(--headingfont);
-    font-size: 2em;
-    padding: 3%;
-}
+    font-size: 4em;
+    }
 
 
 
-section {
-
-   display: flex;
-   flex-direction: row; 
-   padding-left: 8px;
-   justify-content: space-around;
-   padding: 1%;
-}
+section { 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    }
 
 p {
     display: flex;
@@ -81,44 +66,121 @@ p {
     flex-wrap: wrap;
     width: 45%;
     justify-content:space-between;
-    padding: 5%;
-    color: black;
-    background: white;
-    font-family: "Carrois Gothic SC"
-    
-}
+    color: white;
+    background: black;
+    opacity: 75%;
+    font-family: "Carrois Gothic SC";
+    font-size: 1.5em;
+    padding: 4%;
+    }
 
+.projectx {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 25%;
+  
+    }
+
+.project1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10px;
+    }
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    justify-content: center;
+    color: black;
+    font-size: 3.5em;
+    padding: 3% 0;
+    }
 
 img {
-    display:flex;
+        display: flex;
+        flex-direction:row;
+        border: solid black 5em;
+        contain: content;
+    }
+
+h3 {
+    display: flex;
     flex-direction: column;
+    background: none;
+    justify-content: center;
+    color: black;
 }
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    color:white;
+    font-size: 2em;
+    }
 
 footer {
     display: flex;
-    flex-direction: column;
-    
-}
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    background: black;
+    padding: 3%;
+    }
 
 .footer{
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background: black;
+    padding-left: 20;
+    }
 
 
 nav ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
-}
+    }
 
 nav ul li {
     list-style: none;
     text-decoration: underline;
     justify-content: space-evenly;
-    padding: 4px;
-}
+    align-items: center;
+    padding: 3px;
+    background: black;
+    color:white;
+    font-size: 1.7em;
+    }
+
+#art {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    opacity: 70%;
+    color: white;
+    
+    }   
+
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+    opacity: 70%;
+    color: white;
+    }
 
 
 
+
+    
