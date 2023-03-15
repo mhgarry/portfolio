@@ -2,8 +2,7 @@
 
 ## Description
 
-I was asked to deploy a portfolio that includes work samples to send to potential employers. The site had to be functional and include certain assets and elements. The employer is looking for specific requirments to fill and wants to see if this portfolio would be a good fit
-
+A working portfolio that includes work samples to send to potential employers. It is still in progress and right now is just a working site and draft with stock images
 
 ## Installation
 
