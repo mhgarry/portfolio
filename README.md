@@ -19,11 +19,7 @@ This app has multiple pictures and projects. This app deploys heavy CSS
 
 ## Sources
 
-all pictures: https://www.istockphoto.com/
-
-gradient: https://stackoverflow.com/questions/57522446/background-single-diagonal-stripe
-
 qFdR35CBi4tvBz81xy7WG7ep-BQAY7Krj7feObpH_9ahg9U.woff2 and https://fonts.googleapis.com/css2?family=League+Gothic&display=swap and https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap used as fonts
 
-https://loremipsum.io/generator/?n=1&t=p: for generated paragraphs
+
 
