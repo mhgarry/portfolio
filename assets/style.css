@@ -40,7 +40,7 @@ nav ul {
     display: inline-flex;
     color:rgb(175, 170, 78);
     padding-right: 5px;
-    
+
 }
 
 nav ul li {
@@ -58,7 +58,7 @@ nav ul li {
 section {
     display:flex;
     flex-flow: row wrap;
-    
+
     align-items: space-between;
     margin: 0;
 }
@@ -112,7 +112,7 @@ p {
     font-size: 2em;
     justify-content: center;
     align-content: center;
-   
+
 }
 h4{
     display: flex;
@@ -127,6 +127,8 @@ h4{
     justify-content: center;
     gap: 50px 50px;
     margin-bottom: 50px;
+	flex-direction: column;
+
 
 }
 
@@ -136,7 +138,7 @@ img {
 
 a:hover {
     cursor:grabbing;
-    
+
 }
 
 .feet {
